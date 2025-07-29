@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website sedehana</title>
+    <style>
+        body {
+            font: sans-serisf;
+            text-align: center;
+            padding-top: 50px;
+            background-color:rgb(243, 113, 215);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        div {
+            background-color: azure;
+        }
+
+        .container {
+            display: grid;
+            place-items: center;
+            height: 300px;/*contoh tinggi container*/
+        }
+        .item {
+            /*Gaya untuk elemen div yang ingin diperpustakaan*/
+        }
+        script {
+            font-family: sans-serif;
+        }
+        button {
+            border-radius: 30px;
+            height: 60px;
+            width: 200px;
+        }
+        img {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hallo,Selamat Datang</h1>
+    <hr width="1600px">
+    <script>
+    const nama = prompt("Siapa nama kamu?", "");
+    if (nama) {
+      document.getElementById("greeting-text").textContent = "Hello " + nama;
+    }
+  </script>
+  
+    <div class="container">
+        <div class="items">
+             <script>
+        //membjuat variabel 
+        var name = "SMK 2 Pekalongan";
+        var visitorcount = 50322;
+        var isActive = true;
+        var url = " https://smk2pekalongan.sch.id ";
+        //menampiplkan variabel ke jendela dialog (alert)
+        alert("Selamat datang di " + name);
+        //menampilkan variabel ke dalam HTML
+        document.write("Nama Situs: " + name + "<br>");
+        document.write("Jumlah Pengunjung: " + visitorcount + "<br>");
+        document.write("Status Aktif: " + isActive + "<br>");
+        document.write("Alamat URL: " + url + "<br>");
+    </script>
+        </div>
+    </div>
+</body>
+</html>
